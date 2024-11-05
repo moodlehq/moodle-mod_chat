@@ -24,6 +24,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2024100700; // The current module version (Date: YYYYMMDDXX).
-$plugin->requires  = 2024100100; // Requires this Moodle version.
+$plugin->version   = 2024110500; // The current module version (Date: YYYYMMDDXX).
+$plugin->requires  = 2024110100; // Requires this Moodle version. Note we will need to update it to 5.0 before release.
 $plugin->component = 'mod_chat'; // Full name of the plugin (used for diagnostics).
+$plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = '5.0.0';
